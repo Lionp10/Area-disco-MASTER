@@ -1,0 +1,213 @@
+﻿@model webAreaMaster.Models.ViewModels.DepositoViewModel
+@{
+    ViewBag.Title = "Modificar";
+}
+
+<!-- Modal Info -->
+<div class="modal fade" id="infoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Información</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal eliminar stock -->
+<div class="modal fade" id="deleteModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Eliminar stock</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Estas seguro que quieres eliminar este stock?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-sm btn-danger" onclick="Eliminar()">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Error Modal -->
+<div class="modal fade" id="errorModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">¡Ups!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Hemos tenido un problema para eliminar el stock. <b>¡Es posible que esta acción no este permitida!</b>
+                <br /><br />
+                <small class="text-muted cat">— Si crees que es un error, comunicate con el desarrollador.</small>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tabla listado stock -->
+<div class="row">
+    <div class="col mb-3">
+        <div class="card mt-3">
+            <div class="card-header">
+                <h3>Modificar stock</h3>
+            </div>
+
+            <!-- Tabla -->
+            <div class="card-body">
+                <table id="tablaStockList" class="table table-hover table-bordered table-responsive-md"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="text" id="stockID" hidden />
+
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            var table =$('#tablaStockList').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "filter": true,
+                "orderMulti": false,
+                "responsive": true,
+                "autoWidth": false,
+                "pageLength": 10,
+                "dom": "<'row'<'col-sm-6 col-xs-12'B><'col-sm-6 col-xs-12'f>><'row'<'col-12'rt>><'row'<'col-sm-6'i><'col-sm-6'p>>",
+
+                "buttons": [
+                    {
+                        "extend": 'pageLength',
+                        "className": 'btn btn-secondary',
+                    },
+                    {
+                        "extend": 'excel',
+                        "className": 'btn btn-secondary',
+                        "text": '<i class="far fa-file-excel"></i> Excel',
+                        "exportOptions": {
+                            "columns": [0, 1, 2, 3, 4, 5]
+                        }
+                    },
+                    {
+                        "extend": 'pdfHtml5',
+                        "download": 'open',
+                        "className": 'btn btn-secondary',
+                        "text": '<i class="far fa-file-pdf"></i> PDF',
+                        "exportOptions": {
+                            "columns": [0, 1, 2, 3, 4, 5]
+                        },
+                        customize: function (doc) {
+                            doc.content[1].table.widths =
+                                Array(doc.content[1].table.body[0].length + 1).join('*').split('');
+                            doc.content[1].table.widths = ['5%', '25%', '20%', '15%', '15%', '20%'];
+
+                        }
+                    },
+                ],
+
+                "lengthMenu": [
+                    [10, 25, 50, 100, 500, 1000],
+                    ['10 filas', '25 filas', '50 filas', '100 filas', '500 filas', '1000 filas']
+                ],
+
+                "ajax": {
+                    "url": "@Url.Action("ListarStockDeposito", "Deposito")",
+                    "type": "POST",
+                    "datatype": "json"
+                },
+
+                "language": {
+                    "lengthMenu": "Mostrar _MENU_ filas",
+                    "zeroRecords": "Ningún resultado encontrado",
+                    "info": "Página _PAGE_ de _PAGES_",
+                    "infoEmpty": "Sin datos",
+                    "search": "",
+                    "searchPlaceholder": "Buscar... (#, familia, producto, cantidad, precio costo)",
+                    "processing": "Procesando...",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Último",
+                        "next": ">",
+                        "previous": "<"
+                    }
+                },
+
+                "columns": [
+                    { "data": "stockID", "title": "#", "name": "stockID", "width": "5%", "classNmae": "text-center", "orderable": true },
+                    { "data": "familia", "title": "Familia", "name": "familia", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    { "data": "producto", "title": "Producto", "name": "producto", "width": "15%", "classNmae": "text-center", "orderable": true },
+                    { "data": "cantidad", "title": "Cantidad", "name": "cantidad", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    { "data": "precioCostoUnidad", "title": "Precio costo unidad", "name": "precioCostoUnidad", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    { "data": "precioCostoTotal", "title": "Precio costo total", "name": "precioCostoTotal", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    { "data": "precioVentaUnidad", "title": "Precio venta unidad", "name": "precioVentaUnidad", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    {
+                        "data": "fechaIngreso", "title": "Fecha de ingreso", "name": "fechaIngreso", "render": function (data) {
+                            return moment(data).format('DD/MM/YYYY, HH:mm:ss a');
+                        }, "width": "15%"
+                    },
+                    {
+                        data: null, render: function (data, type, row) {
+                            var modificar = '@Url.Action("Modificar", "Deposito")/' + row.stockID;
+                            return '<div class="btn-group btn-group-sm" role="group" aria-label="Acciones"><a class="btn bt-sm btn-dark" href="' + modificar + '">Modificar</a><a class="btn bt-sm btn-danger text-white" onclick="Confirmar(' + row.stockID + ')">Eliminar</a></div>';
+                        }, "width": "15%", "className": "text-center", "title": "Acciones"
+                    }
+                ],
+            });
+        });
+
+        function Confirmar(Id) {
+
+            $("#stockID").val(Id);
+            $('#deleteModal .modal-body').html("Vas a eliminar el stock (#" + Id + "), ¿está seguro?");
+            $("#deleteModal").modal('show');
+        }
+
+        function Eliminar() {
+
+            var Id = $("#stockID").val();
+
+            $.ajax({
+
+                type: "POST",
+                url: "@Url.Action("Eliminar", "Deposito")",
+                data: { id: Id },
+                success: function (data) {
+                    if (data.result == true) {
+                        $("#deleteModal").modal("hide");
+                        $('#infoModal .modal-body').html(data.message);
+                        $("#infoModal").modal('show');
+
+                        tabla = $('#tablaStockList').DataTable();
+                        tabla.draw();
+                    }
+                    else {
+                        $("#deleteModal").modal("hide");
+                        $("#errorModal").modal('show');
+                    }
+                },
+                error: function () {
+                    $("#deleteModal").modal("hide");
+                    $("#errorModal").modal('show');
+                }
+            })
+        }
+    </script>
+}
+

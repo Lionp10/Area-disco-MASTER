@@ -1,0 +1,142 @@
+﻿@model webAreaMaster.Models.ViewModels.CambiarContrasenaViewModel
+@{
+    ViewBag.Title = "CambiarContrasena";
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">¡Listo!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contenido de la ventana modal -->
+                    <p><span style="font-size: 18px; color:greenyellow;"><i class="fa-regular fa-circle-check"></i></span> @TempData["Message"]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@using (Html.BeginForm("CambiarContrasena", "Acceso", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col mb-3">
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h3>Cambiar contraseña</h3>
+                </div>
+                <div class="card-body">
+                    @Html.AntiForgeryToken()
+                    <div class="row g-3">
+
+                        <!-- Nueva Contraseña -->
+                        <div class="col-md-6">
+                            @Html.LabelFor(model => model.UserContrasenaNueva, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                                @Html.EditorFor(model => model.UserContrasenaNueva, new { htmlAttributes = new { @class = "form-control", @id = "password-field" } })
+                                <span class="input-group-text"><a href="#" style="color: dimgray;" class="reveal"><i class="fa fa-eye-slash"></i></a></span>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.UserContrasenaNueva, "", new { @class = "text-danger" })
+                        </div>
+
+                        <!-- Repetir Nueva Contraseña -->
+                        <div class="col-md-6">
+                            @Html.LabelFor(model => model.UserRepContrasena, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                                @Html.EditorFor(model => model.UserRepContrasena, new { htmlAttributes = new { @class = "form-control", @id = "repitpassword-field" } })
+                                <span class="input-group-text"><a href="#" style="color: dimgray;" class="reveal2"><i class="fa fa-eye-slash"></i></a></span>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.UserRepContrasena, "", new { @class = "text-danger" })
+                        </div>
+
+                        <hr />
+
+                        <!-- Contraseña actual -->
+                        <div class="col-md-12">
+                            @Html.LabelFor(model => model.UserContrasena, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-key"></i></span>
+                                @Html.EditorFor(model => model.UserContrasena, new { htmlAttributes = new { @class = "form-control", @id = "passwordactual-field" } })
+                                <span class="input-group-text"><a href="#" style="color: dimgray;" class="reveal3"><i class="fa fa-eye-slash"></i></a></span>
+                            </div>
+                            @Html.ValidationMessage("ErrorPass", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="col-12">
+                            @Html.ActionLink("Volver", "Index", "Inicio", new { }, new { @class = "btn btn-secondary" })
+                            <input id="btnCargar" type="submit" value="Guardar cambios" class="btn btn-primary" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @Html.HiddenFor(x => x.UserID)
+}
+
+@section scripts {
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+             // Ventana modal
+            $('#infoModal').modal('show');
+            $('.modal-header button').on('click', function () {
+                $('#infoModal').modal('hide');
+            });
+
+            // Mostrar ocultar contraseña nueva
+            $('.reveal').click(function () {
+                var passwordField = $('#password-field');
+                var passwordFieldType = passwordField.attr('type');
+                if (passwordFieldType === 'password') {
+                    passwordField.attr('type', 'text');
+                    $(this).html('<i class="fa fa-eye-slash"></i>');
+                } else {
+                    passwordField.attr('type', 'password');
+                    $(this).html('<i class="fa fa-eye"></i>');
+                }
+            });
+
+            // Mostrar ocultar repetir contraseña nueva
+            $('.reveal2').click(function () {
+                var passwordField = $('#repitpassword-field');
+                var passwordFieldType = passwordField.attr('type');
+                if (passwordFieldType === 'password') {
+                    passwordField.attr('type', 'text');
+                    $(this).html('<i class="fa fa-eye-slash"></i>');
+                } else {
+                    passwordField.attr('type', 'password');
+                    $(this).html('<i class="fa fa-eye"></i>');
+                }
+            });
+
+            // Mostrar ocultar contraseña actual
+            $('.reveal3').click(function () {
+                var passwordField = $('#passwordactual-field');
+                var passwordFieldType = passwordField.attr('type');
+                if (passwordFieldType === 'password') {
+                    passwordField.attr('type', 'text');
+                    $(this).html('<i class="fa fa-eye-slash"></i>');
+                } else {
+                    passwordField.attr('type', 'password');
+                    $(this).html('<i class="fa fa-eye"></i>');
+                }
+            });
+
+        });
+    </script>
+}
+
+

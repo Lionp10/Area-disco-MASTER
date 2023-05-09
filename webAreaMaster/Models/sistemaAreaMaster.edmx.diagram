@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c50875a9e4114ab1a1ce4a22937a353a" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.barraData" Width="1.5" PointX="5.25" PointY="8" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.depositoData" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.familiaData" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.PasswordResetTokens" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.productoData" Width="1.5" PointX="3" PointY="4" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.sectorData" Width="1.5" PointX="3" PointY="8.125" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.stockBarrasData" Width="1.5" PointX="7.5" PointY="3.5" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.stockDepositoData" Width="1.5" PointX="5.25" PointY="3.25" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.usuarioData" Width="1.5" PointX="10" PointY="8" />
+        <EntityTypeShape EntityType="sistemaAreaMasterModel.usuarioRolData" Width="1.5" PointX="7.75" PointY="8.25" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_barraData_sectorData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_stockBarrasData_barraData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_stockDepositoData_depositoData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_productoData_familiaData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_stockBarrasData_familiaData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_stockDepositoData_familiaData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_stockBarrasData_productoData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_stockDepositoData_productoData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_stockBarrasData_stockDepositoData" />
+        <AssociationConnector Association="sistemaAreaMasterModel.FK_usuarioData_usuarioRolData1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

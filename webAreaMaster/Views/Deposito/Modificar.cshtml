@@ -1,0 +1,186 @@
+﻿@model webAreaMaster.Models.ViewModels.DepositoViewModel
+@{
+    ViewBag.Title = "Modificar stock";
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="modal fade" id="infoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">¡Listo!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @Html.Raw(ViewBag.Message)
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@using (Html.BeginForm("Modificar", "Deposito", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col mb-3">
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h3>Stock @Model.stockID</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4 mb-sm-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mt-4 fw-bold">Detalle stock n° @Model.stockID:</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p><b>FAMILIA: </b>@Model.familia</p>
+                                    <p><b>PRODUCTO: </b>@Model.producto</p>
+                                    <p><b>CANTIDAD: </b>@Model.cantidad unidades</p>
+                                    <p><b>PRECIO COSTO: </b>$@Model.precioCostoUnidad cada unidad.</p>
+                                    <p><b>PRECIO VENTA: </b>$@Model.precioVentaUnidad cada unidad.</p>
+                                    <p><b>FECHA DE INGRESO: </b>@Model.fechaIngreso.ToString()</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <div class="btn-group">
+                                        @Html.ActionLink("Volver", "Listado", new { }, new { @class = "btn btn-secondary" })
+                                        <button id="btnModificar" onclick="ModStockON()" class="btn btn-primary">Modificar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            @Html.AntiForgeryToken()
+                            @Html.HiddenFor(model => model.stockID)
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Modificar stock n° @Model.stockID</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <!-- selFamilia -->
+                                        <div class="col-md-4">
+                                            @Html.LabelFor(model => model.selFamilia, htmlAttributes: new { @class = "form-label" })
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-people-group"></i></span>
+                                                @Html.EditorFor(model => model.familia, new { htmlAttributes = new { @class = "form-control", @id = "famID", @disabled = "disabled" } })
+                                                @Html.ValidationMessageFor(model => model.selFamilia, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <!-- selProducto -->
+                                        <div class="col-md-5">
+                                            @Html.LabelFor(model => model.selProducto, htmlAttributes: new { @class = "form-label" })
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-wine-bottle"></i></span>
+                                                @Html.EditorFor(model => model.producto, new { htmlAttributes = new { @class = "form-control", @id = "prodID", @disabled = "disabled" } })
+                                                @Html.ValidationMessageFor(model => model.selProducto, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <!-- cantidad -->
+                                        <div class="col-md-3">
+                                            @Html.LabelFor(model => model.cantidad, htmlAttributes: new { @class = "form-label" })
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                @Html.EditorFor(model => model.cantidad, new { htmlAttributes = new { @class = "form-control", @id = "cant", @disabled = "disabled" } })
+                                                @Html.ValidationMessageFor(model => model.cantidad, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <!-- precioCostoUnidad -->
+                                        <div class="col-md-6 mt-3">
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-dollar-sign"></i></span>
+                                                @Html.EditorFor(model => model.precioCostoUnidad, new { htmlAttributes = new { @class = "form-control", @id = "pcostoU", @disabled = "disabled" } })
+                                                @Html.ValidationMessageFor(model => model.precioCostoUnidad, "", new { @class = "text-danger" })
+                                            </div>
+                                            <span style="color:rgba(0, 0, 0, 0.5);">Precio costo por unidad</span>
+                                        </div>
+
+                                        <!-- precioVentaUnidad -->
+                                        <div class="col-md-6 mt-3">
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-dollar-sign"></i></span>
+                                                @Html.EditorFor(model => model.precioVentaUnidad, new { htmlAttributes = new { @class = "form-control", @id = "pventaU", @disabled = "disabled" } })
+                                                @Html.ValidationMessageFor(model => model.precioVentaUnidad, "", new { @class = "text-danger" })
+                                            </div>
+                                            <span style="color:rgba(0, 0, 0, 0.5);">Precio venta por unidad</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="btn-group">
+                                        <input id="btnCancelar" type="submit" value="Cancelar" class="btn btn-secondary" disabled="disabled" />
+                                        <input id="btnConfirmar" type="submit" value="Confirmar" class="btn btn-success" disabled="disabled" />
+                                    </div>
+                                </div>
+                                @Html.HiddenFor(model => model.depositoID)
+                                @Html.HiddenFor(model => model.selFamilia)
+                                @Html.HiddenFor(model => model.selProducto)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#btnModificar').click(function (e) {
+                e.preventDefault(); // previene el envío del formulario
+                e.preventDefault(); // previene el envío del formulario
+                $('#cant').prop('disabled', false); // habilita el campo #cant
+                $('#pcostoU').prop('disabled', false); // habilita el campo #pcostoU
+                $('#pventaU').prop('disabled', false); // habilita el campo #pcostoU
+                $('#btnCancelar').prop('disabled', false); // habilita el campo #btnCancelar
+                $('#btnConfirmar').prop('disabled', false); // habilita el campo #btnConfirmar
+            });
+
+            $('#btnCancelar').click(function (e) {
+                e.preventDefault(); // previene el envío del formulario
+                $('#famID').prop('disabled', true); // habilita el campo #famID
+                $('#prodID').prop('disabled', true); // habilita el campo #prodID
+                $('#cant').prop('disabled', true); // habilita el campo #cant
+                $('#pcostoU').prop('disabled', true); // habilita el campo #pcostoU
+                $('#pventaU').prop('disabled', true); // habilita el campo #pcostoU
+                $('#btnCancelar').prop('disabled', true); // habilita el campo #btnCancelar
+                $('#btnConfirmar').prop('disabled', true); // habilita el campo #btnConfirmar
+            });
+            // Dropdownlist
+            var selProducto = $("#prodID");
+            $("#famID").change(function () {
+                if ($("#famID").val() == "") { // verifica si se ha seleccionado "Seleccionar familia"
+                    $("#prodID").prop('disabled', true); // si es así, desactiva el dropdownlist de "selProducto"
+                    $("#prodID").append('<option value="" selected>Seleccionar producto</option>');
+                }
+                else {
+                    $.ajax({
+                        type: "post",
+                        url: "/Deposito/ObtenerProductos",
+                        data: { id: $("#famID").val() },
+                        datatype: "json",
+                        traditional: true,
+                        success: function (data) {
+                            $(selProducto).empty();
+                            $(selProducto).prop('disabled', false);
+                            $(selProducto).append("<option value='' selected>(Seleccionar producto)</option>");
+                            $.each(data, function (index, row) {
+                                $("#prodID").append($("<option value></option>").val(row.Value).html(row.Text));
+                            });
+
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

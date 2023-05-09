@@ -1,0 +1,290 @@
+﻿@model webAreaMaster.Models.ViewModels.DepositoViewModel
+@{
+    ViewBag.Title = "Cargar deposito";
+}
+@if (TempData["Message"] != null)
+{
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">¡Listo!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contenido de la ventana modal -->
+                    <p><span style="font-size: 18px; color:greenyellow;"><i class="fa-regular fa-circle-check"></i></span> @TempData["Message"]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@using (Html.BeginForm("Cargar", "Deposito", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col mb-3">
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h3>Cargar deposito</h3>
+                </div>
+                <div class="card-body">
+                    @Html.AntiForgeryToken()
+                    <div class="row g-3">
+
+                        <!-- nameDeposito -->
+                        <div class="input-group col-md-12">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-boxes-packing"></i></span>
+                            @Html.DropDownListFor(model => model.depositoID, Model.depositoList, new { @class = "form-control", @disabled = "disabled" })
+                        </div>
+
+                        <!-- selFamilia -->
+                        <div class="col-md-5">
+                            @Html.LabelFor(model => model.selFamilia, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-people-group"></i></span>
+                                @Html.DropDownListFor(model => model.selFamilia, Model.familiaList, "(Seleccionar familia)", new { @class = "form-control form-select" })
+                                @Html.ValidationMessageFor(model => model.selFamilia, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- selProducto -->
+                        <div class="col-md-5">
+                            @Html.LabelFor(model => model.selProducto, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-wine-bottle"></i></span>
+                                @Html.DropDownListFor(model => model.selProducto, Model.productoList, "(Seleccionar producto)", new { @class = "form-control form-select", @disabled = "disabled", @id = "prodID" })
+                                @Html.ValidationMessageFor(model => model.selProducto, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- cantidad -->
+                        <div class="col-md-2">
+                            @Html.LabelFor(model => model.cantidad, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                @Html.EditorFor(model => model.cantidad, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.cantidad, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- precioCostoUnidad -->
+                        <div class="col-md-6">
+                            @Html.LabelFor(model => model.precioCostoUnidad, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-dollar-sign"></i></span>
+                                @Html.EditorFor(model => model.precioCostoUnidad, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.precioCostoUnidad, "", new { @class = "text-danger" })
+                            </div>
+                            <span style="color:rgba(0, 0, 0, 0.5);">Ingresar el precio de costo por unidad.</span>
+                        </div>
+
+                        <!-- precioVentaUnidad -->
+                        <div class="col-md-6">
+                            @Html.LabelFor(model => model.precioVentaUnidad, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-dollar-sign"></i></span>
+                                @Html.EditorFor(model => model.precioVentaUnidad, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.precioVentaUnidad, "", new { @class = "text-danger" })
+                            </div>
+                            <span style="color:rgba(0, 0, 0, 0.5);">Ingresar el precio de venta por unidad.</span>
+                        </div>
+
+                        <div class="col-12">
+                            @Html.ActionLink("Volver", "Index", "Inicio", new { }, new { @class = "btn btn-secondary" })
+                            <input id="btnCargar" type="submit" value="Cargar al deposito" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<hr />
+
+<!-- Tabla listado stock -->
+<div class="row">
+    <div class="col mb-3">
+        <div class="card mt-3">
+            <div class="card-header">
+                <h3>Stock actual</h3>
+            </div>
+
+            <!-- Filtrar stock por fechas -->
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="fechaDesde">Fecha desde:</label>
+                        <input type="date" id="fechaDesde" name="fechaDesde" class="form-control" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="fechaHasta">Fecha hasta:</label>
+                        <input type="date" id="fechaHasta" name="fechaHasta" class="form-control" />
+                    </div>
+
+                    <div class="col-md-12 mt-3">
+                        <input class="btn btn-primary" type="button" id="btnBuscar" value="Filtrar" />
+                        <input class="btn btn-primary" type="button" id="btnRecargar" value="Recargar tabla sin filtro" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla -->
+            <div class="card-body">
+                <table id="tablaStockList" class="table table-hover table-bordered table-responsive-md"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.13/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#infoModal').modal('show');
+            $('.modal-header button').on('click', function () {
+                $('#infoModal').modal('hide');
+            });
+
+            var table =$('#tablaStockList').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "filter": true,
+                "orderMulti": false,
+                "responsive": true,
+                "autoWidth": false,
+                "pageLength": 10,
+                "dom": "<'row'<'col-sm-6 col-xs-12'B><'col-sm-6 col-xs-12'f>><'row'<'col-12'rt>><'row'<'col-sm-6'i><'col-sm-6'p>>",
+
+                "buttons": [
+                    {
+                        "extend": 'pageLength',
+                        "className": 'btn btn-secondary',
+                    },
+                    {
+                        "extend": 'excel',
+                        "className": 'btn btn-secondary',
+                        "text": '<i class="far fa-file-excel"></i> Excel',
+                        "exportOptions": {
+                            "columns": [0, 1, 2, 3, 4, 5]
+                        }
+                    },
+                    {
+                        "extend": 'pdfHtml5',
+                        "download": 'open',
+                        "className": 'btn btn-secondary',
+                        "text": '<i class="far fa-file-pdf"></i> PDF',
+                        "exportOptions": {
+                            "columns": [0, 1, 2, 3, 4, 5]
+                        },
+                        customize: function (doc) {
+                            doc.content[1].table.widths =
+                                Array(doc.content[1].table.body[0].length + 1).join('*').split('');
+                            doc.content[1].table.widths = ['5%', '25%', '20%', '15%', '15%', '20%'];
+
+                        }
+                    },
+                ],
+
+                "lengthMenu": [
+                    [10, 25, 50, 100, 500, 1000],
+                    ['10 filas', '25 filas', '50 filas', '100 filas', '500 filas', '1000 filas']
+                ],
+
+                "ajax": {
+                    "url": "@Url.Action("ListarStockDeposito", "Deposito")",
+                    "type": "POST",
+                    "datatype": "json"
+                },
+
+                "language": {
+                    "lengthMenu": "Mostrar _MENU_ filas",
+                    "zeroRecords": "Ningún resultado encontrado",
+                    "info": "Página _PAGE_ de _PAGES_",
+                    "infoEmpty": "Sin datos",
+                    "search": "",
+                    "searchPlaceholder": "Buscar... (#, familia, producto, cantidad, precio costo)",
+                    "processing": "Procesando...",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Último",
+                        "next": ">",
+                        "previous": "<"
+                    }
+                },
+
+                "columns": [
+                    { "data": "stockID", "title": "#", "name": "stockID", "width": "5%", "classNmae": "text-center", "orderable": true },
+                    { "data": "familia", "title": "Familia", "name": "familia", "width": "25%", "classNmae": "text-center", "orderable": true },
+                    { "data": "producto", "title": "Producto", "name": "producto", "width": "20%", "classNmae": "text-center", "orderable": true },
+                    { "data": "cantidad", "title": "Cantidad", "name": "cantidad", "width": "15%", "classNmae": "text-center", "orderable": true },
+                    { "data": "precioCostoUnidad", "title": "Precio costo u.", "name": "precioCostoUnidad", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    { "data": "precioVentaUnidad", "title": "Precio venta u.", "name": "precioVentaUnidad", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    {
+                        "data": "fechaIngreso", "title": "Fecha de ingreso", "name": "fechaIngreso", "render": function (data) {
+                            return moment(data).format('DD/MM/YYYY, HH:mm:ss a');
+                        }, "width": "15%"
+                    },
+                ],
+            });
+
+            // Dropdownlist
+            var selProducto = $("#prodID");
+            $(selFamilia).change(function () {
+                if ($(selFamilia).val() == "") { // verifica si se ha seleccionado "Seleccionar familia"
+                    $(selProducto).prop('disabled', true); // si es así, desactiva el dropdownlist de "selProducto"
+                    $(selProducto).append('<option value="" selected>Seleccionar producto</option>');
+                }
+                else {
+                    $.ajax({
+                        type: "post",
+                        url: "/Deposito/ObtenerProductos",
+                        data: { id: $(selFamilia).val() },
+                        datatype: "json",
+                        traditional: true,
+                        success: function (data) {
+                            $(selProducto).empty();
+                            $(selProducto).prop('disabled', false);
+                            $.each(data, function (index, row) {
+                                $(selProducto).append($("<option value></option>").val(row.Value).html(row.Text));
+                            });
+                        }
+                    });
+                }
+            });
+
+            // Filtrado de fechas
+            // Función para recargar la tabla
+            function recargarTabla() {
+                var fechaDesde = $('#fechaDesde').val();
+                var fechaHasta = $('#fechaHasta').val();
+                table.ajax.url("/Deposito/ListarStockDeposito?fechaDesde=" + fechaDesde + "&fechaHasta=" + fechaHasta).load();
+            }
+            // Ejecutar búsqueda al presionar botón Buscar
+            $('#btnBuscar').on('click', function () {
+                recargarTabla();
+            });
+
+            function recargarTablaSinFiltro() {
+                $('#fechaDesde').val(null);
+                $('#fechaHasta').val(null);
+                table.ajax.url("/Deposito/ListarStockDeposito").load();
+            }
+
+            // Asignar el evento click al botón
+            $('#btnRecargar').on('click', recargarTablaSinFiltro);
+
+        });
+
+
+    </script>
+}
+

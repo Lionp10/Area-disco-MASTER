@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sistemaAreaMasterModelStoreContainer" CdmEntityContainer="sistemaAreaMasterEntities">
+    <EntitySetMapping Name="barraData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.barraData">
+        <MappingFragment StoreEntitySet="barraData">
+          <ScalarProperty Name="barraSector" ColumnName="barraSector" />
+          <ScalarProperty Name="barraNombre" ColumnName="barraNombre" />
+          <ScalarProperty Name="barraID" ColumnName="barraID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="depositoData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.depositoData">
+        <MappingFragment StoreEntitySet="depositoData">
+          <ScalarProperty Name="depNombre" ColumnName="depNombre" />
+          <ScalarProperty Name="depID" ColumnName="depID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="familiaData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.familiaData">
+        <MappingFragment StoreEntitySet="familiaData">
+          <ScalarProperty Name="famNombre" ColumnName="famNombre" />
+          <ScalarProperty Name="famID" ColumnName="famID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PasswordResetTokens">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.PasswordResetTokens">
+        <MappingFragment StoreEntitySet="PasswordResetTokens">
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productoData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.productoData">
+        <MappingFragment StoreEntitySet="productoData">
+          <ScalarProperty Name="prodFamiliaID" ColumnName="prodFamiliaID" />
+          <ScalarProperty Name="prodNombre" ColumnName="prodNombre" />
+          <ScalarProperty Name="prodID" ColumnName="prodID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sectorData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.sectorData">
+        <MappingFragment StoreEntitySet="sectorData">
+          <ScalarProperty Name="secNombre" ColumnName="secNombre" />
+          <ScalarProperty Name="secID" ColumnName="secID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stockBarrasData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.stockBarrasData">
+        <MappingFragment StoreEntitySet="stockBarrasData">
+          <ScalarProperty Name="sbCantDispID" ColumnName="sbCantDispID" />
+          <ScalarProperty Name="sbPrecioVentaUnidad" ColumnName="sbPrecioVentaUnidad" />
+          <ScalarProperty Name="sbProductoID" ColumnName="sbProductoID" />
+          <ScalarProperty Name="sbFechaIngreso" ColumnName="sbFechaIngreso" />
+          <ScalarProperty Name="sbBarraID" ColumnName="sbBarraID" />
+          <ScalarProperty Name="sbCantidad" ColumnName="sbCantidad" />
+          <ScalarProperty Name="sbFamiliaID" ColumnName="sbFamiliaID" />
+          <ScalarProperty Name="sbID" ColumnName="sbID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stockDepositoData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.stockDepositoData">
+        <MappingFragment StoreEntitySet="stockDepositoData">
+          <ScalarProperty Name="stockFechaIngreso" ColumnName="stockFechaIngreso" />
+          <ScalarProperty Name="stockCantidad" ColumnName="stockCantidad" />
+          <ScalarProperty Name="stockPrecioCostoTotal" ColumnName="stockPrecioCostoTotal" />
+          <ScalarProperty Name="stockPrecioCostoUnidad" ColumnName="stockPrecioCostoUnidad" />
+          <ScalarProperty Name="stockPrecioVentaUnidad" ColumnName="stockPrecioVentaUnidad" />
+          <ScalarProperty Name="stockCodProducto" ColumnName="stockCodProducto" />
+          <ScalarProperty Name="stockProductoID" ColumnName="stockProductoID" />
+          <ScalarProperty Name="stockFamiliaID" ColumnName="stockFamiliaID" />
+          <ScalarProperty Name="stockDepositoID" ColumnName="stockDepositoID" />
+          <ScalarProperty Name="stockID" ColumnName="stockID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarioData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.usuarioData">
+        <MappingFragment StoreEntitySet="usuarioData">
+          <ScalarProperty Name="userRolID" ColumnName="userRolID" />
+          <ScalarProperty Name="userContrasena" ColumnName="userContrasena" />
+          <ScalarProperty Name="userEmail" ColumnName="userEmail" />
+          <ScalarProperty Name="userApellido" ColumnName="userApellido" />
+          <ScalarProperty Name="userNombre" ColumnName="userNombre" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarioRolData">
+      <EntityTypeMapping TypeName="sistemaAreaMasterModel.usuarioRolData">
+        <MappingFragment StoreEntitySet="usuarioRolData">
+          <ScalarProperty Name="rolPoder" ColumnName="rolPoder" />
+          <ScalarProperty Name="rolNombre" ColumnName="rolNombre" />
+          <ScalarProperty Name="rolID" ColumnName="rolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

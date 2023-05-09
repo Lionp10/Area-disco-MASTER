@@ -1,0 +1,174 @@
+﻿@model webAreaMaster.Models.ViewModels.CrearBarrasViewModel
+@{
+    ViewBag.Title = "Crear";
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">¡Listo!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contenido de la ventana modal -->
+                    <p><span style="font-size: 18px; color:greenyellow;"><i class="fa-regular fa-circle-check"></i></span> @TempData["Message"]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@using (Html.BeginForm("Crear", "Barra", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col mb-3">
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h3>Crear barras</h3>
+                </div>
+                <div class="card-body">
+                    @Html.AntiForgeryToken()
+                    <div class="row g-3">
+
+                        <!-- nombreBarra -->
+                        <div class="col-md-6">
+                            @Html.LabelFor(model => model.barraNombre, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-ruler-horizontal"></i></span>
+                                @Html.EditorFor(model => model.barraNombre, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                            @Html.ValidationMessageFor(model => model.barraNombre, "", new { @class = "text-danger" })
+                        </div>
+
+                        <!-- selSector -->
+                        <div class="col-md-6">
+                            @Html.LabelFor(model => model.selSector, htmlAttributes: new { @class = "form-label" })
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-vector-square"></i></span>
+                                @Html.DropDownListFor(model => model.selSector, Model.secBarraList, "(Seleccionar sector)", new { @class = "form-control form-select" })
+                            </div>
+                            @Html.ValidationMessageFor(model => model.selSector, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="col-12">
+                            @Html.ActionLink("Volver", "Index", "Inicio", new { }, new { @class = "btn btn-secondary" })
+                            <input id="btnCrear" type="submit" value="Crear" class="btn btn-primary" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<hr />
+
+<!-- Tabla listado stock barras -->
+<div class="row">
+    <div class="col mb-3">
+        <div class="card mt-3">
+            <div class="card-header">
+                <h3>Administrar barras</h3>
+            </div>
+            <!-- Tabla -->
+            <div class="card-body">
+                <table id="tablaBarras" class="table table-hover table-bordered table-responsive-md"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Ventana modal
+            $('#infoModal').modal('show');
+            $('.modal-header button').on('click', function () {
+                $('#infoModal').modal('hide');
+            });
+
+            // Tabla
+            var table = $('#tablaBarras').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "filter": true,
+                "orderMulti": false,
+                "responsive": true,
+                "autoWidth": false,
+                "pageLength": 10,
+                "dom": "<'row'<'col-sm-6 col-xs-12'B><'col-sm-6 col-xs-12'f>><'row'<'col-12'rt>><'row'<'col-sm-6'i><'col-sm-6'p>>",
+
+                "buttons": [
+                    {
+                        "extend": 'pageLength',
+                        "className": 'btn btn-secondary',
+                    },
+                    {
+                        "extend": 'excel',
+                        "className": 'btn btn-secondary',
+                        "text": '<i class="far fa-file-excel"></i> Excel',
+                        "exportOptions": {
+                            "columns": [0, 1, 2]
+                        }
+                    },
+                    {
+                        "extend": 'pdfHtml5',
+                        "download": 'open',
+                        "className": 'btn btn-secondary',
+                        "text": '<i class="far fa-file-pdf"></i> PDF',
+                        "exportOptions": {
+                            "columns": [0, 1, 2]
+                        },
+                        customize: function (doc) {
+                            doc.content[1].table.widths =
+                                Array(doc.content[1].table.body[0].length + 1).join('*').split('');
+                            doc.content[1].table.widths = ['10%', '40%', '40%'];
+
+                        }
+                    },
+                ],
+
+                "lengthMenu": [
+                    [10, 25, 50, 100, 500, 1000],
+                    ['10 filas', '25 filas', '50 filas', '100 filas', '500 filas', '1000 filas']
+                ],
+
+                "ajax": {
+                    "url": "@Url.Action("ListadoBarras", "Barra")",
+                    "type": "POST",
+                    "datatype": "json"
+                },
+
+                "language": {
+                    "lengthMenu": "Mostrar _MENU_ filas",
+                    "zeroRecords": "Ningún resultado encontrado",
+                    "info": "Página _PAGE_ de _PAGES_",
+                    "infoEmpty": "Sin datos",
+                    "search": "",
+                    "searchPlaceholder": "Buscar... (#, familia, producto, cantidad, precio costo)",
+                    "processing": "Procesando...",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Último",
+                        "next": ">",
+                        "previous": "<"
+                    }
+                },
+
+                "columns": [
+                    { "data": "barraID", "title": "#", "name": "barraID", "width": "10%", "classNmae": "text-center", "orderable": true },
+                    { "data": "barraNombre", "title": "Barra", "name": "barraNombre", "width": "40%", "classNmae": "text-center", "orderable": true },
+                    { "data": "sectorBarraNombre", "title": "Sector", "name": "sectorBarraNombre", "width": "40%", "classNmae": "text-center", "orderable": true },
+                ],
+            });
+        });
+    </script>
+}

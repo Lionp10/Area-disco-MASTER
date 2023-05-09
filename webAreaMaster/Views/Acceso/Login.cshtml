@@ -1,0 +1,36 @@
+﻿@model webAreaMaster.Models.ViewModels.UsuarioViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<link rel="icon" type="image/jpg" href="~/Content/assets/images/logoarea.ico" />
+<title>@ViewBag.Title - Sistema area</title>
+
+<link href="~/Content/login.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="~/Content/style.css">
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/extras")
+
+<div class="form-signin-body">
+    <div class="form-signin text-center">
+        @using (Html.BeginForm("Login", "Acceso", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <h1 class="h3 mb-3 fw-normal">Acceso usuarios</h1>
+            <div class="list-group ms-auto">
+                @Html.ValidationMessage("LoginError", new { @class = "text-danger" })
+            </div>
+            @Html.TextBoxFor(m => m.UserEmail, new { @class = "form-control input-email", @placeholder = "Correo electrónico", autocomplete = "on" })
+            @Html.PasswordFor(m => m.UserContrasena, new { @class = "form-control input-password", @placeholder = "Contraseña", autocomplete = "on" })
+
+            <input type="submit" name="submit" class="btn btn-primary btn-block" value="Acceder" />
+        }
+        <a href="@Url.Action("EmailRestPassword", "Acceso")">¿Olvidaste tu contraseña?</a>
+        <p class="mt-5 mb-3 text-muted">Nunca compartas tu información con otras personas.</p>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/ca747fee9b.js" crossorigin="anonymous"></script>

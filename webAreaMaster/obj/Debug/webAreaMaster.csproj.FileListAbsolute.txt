@@ -1,0 +1,578 @@
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webArea\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Lionel\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Owin.dll
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Lionel\Trabajo\Sist. Area - Pruebas\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Owin.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Owin.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+D:\Lionel\Trabajo\Proyecto 23\Area\Sistema\Version2\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Owin.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+D:\Lionel\Trabajo\ASD Proggraming\Area\Proyectos\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll.config
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\webAreaMaster.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\webAreaMaster.pdb
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\csc.exe.config
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\csc.rsp
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\csi.exe.config
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\csi.rsp
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Buffers.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Collections.Immutable.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Memory.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Numerics.Vectors.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Reflection.Metadata.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\vbc.exe.config
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\vbc.rsp
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\roslyn\VBCSCompiler.exe.config
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\EntityFramework.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Microsoft.Web.Infrastructure.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Owin.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Razor.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\WebGrease.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\EntityFramework.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\EntityFramework.SqlServer.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Newtonsoft.Json.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Helpers.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Mvc.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Optimization.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.Razor.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Deployment.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\System.Web.WebPages.Razor.xml
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\Antlr3.Runtime.pdb
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\es\System.Web.Helpers.resources.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\es\System.Web.Mvc.resources.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\es\System.Web.Optimization.resources.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\es\System.Web.Razor.resources.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.resources.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.AssemblyReference.cache
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CoreCompileInputs.cache
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.csproj.CopyComplete
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.dll
+C:\Lionel\Trabajo\ASD Proggraming\Sistema area\webAreaMaster\webAreaMaster\obj\Debug\webAreaMaster.pdb

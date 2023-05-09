@@ -1,0 +1,149 @@
+﻿@model webAreaMaster.Models.ViewModels.CrearUsuarioViewModel
+@{
+    ViewBag.Title = "Modificar usuarios";
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="modal fade" id="infoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">¡Listo!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @Html.Raw(ViewBag.Message)
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@using (Html.BeginForm("Modificar", "Usuarios", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col mb-3">
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h3>Usuario @Model.UserID</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4 mb-sm-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mt-4 fw-bold">@Model.UserID - @Model.UserApellido, @Model.UserNombre</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p><b>NOMBRE: </b>@Model.UserNombre</p>
+                                    <p><b>APELLIDO: </b>@Model.UserApellido</p>
+                                    <p><b>EMAIL: </b>@Model.UserEmail</p>
+                                    <p><b>ROL: </b>@Model.rolNombre</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <div class="btn-group">
+                                        @Html.ActionLink("Volver", "Listado", new { }, new { @class = "btn btn-secondary" })
+                                        <button id="btnModificar" onclick="ModStockON()" class="btn btn-primary">Modificar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            @Html.AntiForgeryToken()
+                            @Html.HiddenFor(model => model.UserID)
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Modificar usuario: @Model.UserApellido, @Model.UserNombre</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+
+                                        <!-- userNombre -->
+                                        <div class="col-md-4">
+                                            @Html.LabelFor(model => model.UserNombre, htmlAttributes: new { @class = "form-label" })
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-signature"></i></span>
+                                                @Html.EditorFor(model => model.UserNombre, new { htmlAttributes = new { @class = "form-control", @id = "userNombre", @disabled = "disabled" } })
+                                            </div>
+                                            @Html.ValidationMessageFor(model => model.UserNombre, "", new { @class = "text-danger" })
+                                        </div>
+
+                                        <!-- userAoellido -->
+                                        <div class="col-md-4">
+                                            @Html.LabelFor(model => model.UserApellido, htmlAttributes: new { @class = "form-label" })
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-signature"></i></span>
+                                                @Html.EditorFor(model => model.UserApellido, new { htmlAttributes = new { @class = "form-control", @id = "userApellido", @disabled = "disabled" } })
+                                            </div>
+                                            @Html.ValidationMessageFor(model => model.UserApellido, "", new { @class = "text-danger" })
+                                        </div>
+
+                                        <!-- userEmail -->
+                                        <div class="col-md-4">
+                                            @Html.LabelFor(model => model.UserEmail, htmlAttributes: new { @class = "form-label" })
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+                                                @Html.EditorFor(model => model.UserEmail, new { htmlAttributes = new { @class = "form-control", @id = "userEmail", @disabled = "disabled" } })
+                                            </div>
+                                            @Html.ValidationMessageFor(model => model.UserEmail, "", new { @class = "text-danger" })
+                                        </div>
+
+                                        <!-- userRol -->
+                                        <div class="col-md-12 mt-3">
+                                            @Html.LabelFor(model => model.selRol, htmlAttributes: new { @class = "form-label" })
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-tag"></i></span>
+                                                @Html.DropDownListFor(model => model.selRol, Model.rolesList, "(SELECCIONAR ROL)", new { @class = "form-control form-select", @id = "userRol", @disabled = "disabled" })
+                                            </div>
+                                            @Html.ValidationMessageFor(model => model.selRol, "", new { @class = "text-danger" })
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="btn-group">
+                                        <input id="btnCancelar" type="submit" value="Cancelar" class="btn btn-secondary" disabled="disabled" />
+                                        <input id="btnConfirmar" type="submit" value="Confirmar" class="btn btn-success" disabled="disabled" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#btnModificar').click(function (e) {
+                e.preventDefault(); // previene el envío del formulario
+                $('#userNombre').prop('disabled', false); 
+                $('#userApellido').prop('disabled', false); 
+                $('#userEmail').prop('disabled', false);
+                $('#userPass').prop('disabled', false);
+                $('#userRol').prop('disabled', false);
+                $('#btnCancelar').prop('disabled', false);
+                $('#btnConfirmar').prop('disabled', false);
+            });
+
+            $('#btnCancelar').click(function (e) {
+                e.preventDefault(); // previene el envío del formulario
+                $('#userNombre').prop('disabled', true); 
+                $('#userApellido').prop('disabled', true); 
+                $('#userPass').prop('disabled', true); 
+                $('#userEmail').prop('disabled', true); 
+                $('#userRol').prop('disabled', true); 
+                $('#btnCancelar').prop('disabled', true); 
+                $('#btnConfirmar').prop('disabled', true); 
+            });            
+        });
+    </script>
+}
+

@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Éxito";
+}
+
+<div class="container-fluid">
+    <div class="card mt-3">
+        <div class="card-header">¡Listo!</div>
+        <div class="card-body"><p><span style="font-size: 18px; color:greenyellow;"><i class="fa-regular fa-circle-check"></i></span> Modificaste tu contraseña correctamente.</p></div>
+        <div class="card-footer">@Html.ActionLink("Aceptar", "Login", "Acceso", new { }, new { @class = "btn btn-secondary" })</div>
+    </div>
+</div>

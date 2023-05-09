@@ -1,0 +1,51 @@
+﻿body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Indicamos que el alto mínimo sea igual a la altura de la pantalla */
+}
+.form-signin-body {
+    height: calc(100% - 10%);
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+    .form-signin .checkbox {
+        font-weight: 400;
+    }
+
+    .form-signin .form-control {
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+.input-email {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-password {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+footer {
+    margin-top: auto; /* Empujamos el footer hacia abajo */
+    width: 100%; /* Ancho del footer al 100% */
+}

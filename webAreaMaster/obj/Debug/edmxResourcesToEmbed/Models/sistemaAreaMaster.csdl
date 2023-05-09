@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sistemaAreaMasterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="sistemaAreaMasterEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="barraData" EntityType="sistemaAreaMasterModel.barraData" />
+    <EntitySet Name="depositoData" EntityType="sistemaAreaMasterModel.depositoData" />
+    <EntitySet Name="familiaData" EntityType="sistemaAreaMasterModel.familiaData" />
+    <EntitySet Name="PasswordResetTokens" EntityType="sistemaAreaMasterModel.PasswordResetTokens" />
+    <EntitySet Name="productoData" EntityType="sistemaAreaMasterModel.productoData" />
+    <EntitySet Name="sectorData" EntityType="sistemaAreaMasterModel.sectorData" />
+    <EntitySet Name="stockBarrasData" EntityType="sistemaAreaMasterModel.stockBarrasData" />
+    <EntitySet Name="stockDepositoData" EntityType="sistemaAreaMasterModel.stockDepositoData" />
+    <EntitySet Name="usuarioData" EntityType="sistemaAreaMasterModel.usuarioData" />
+    <EntitySet Name="usuarioRolData" EntityType="sistemaAreaMasterModel.usuarioRolData" />
+    <AssociationSet Name="FK_barraData_sectorData" Association="sistemaAreaMasterModel.FK_barraData_sectorData">
+      <End Role="sectorData" EntitySet="sectorData" />
+      <End Role="barraData" EntitySet="barraData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockBarrasData_barraData" Association="sistemaAreaMasterModel.FK_stockBarrasData_barraData">
+      <End Role="barraData" EntitySet="barraData" />
+      <End Role="stockBarrasData" EntitySet="stockBarrasData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockDepositoData_depositoData" Association="sistemaAreaMasterModel.FK_stockDepositoData_depositoData">
+      <End Role="depositoData" EntitySet="depositoData" />
+      <End Role="stockDepositoData" EntitySet="stockDepositoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_productoData_familiaData" Association="sistemaAreaMasterModel.FK_productoData_familiaData">
+      <End Role="familiaData" EntitySet="familiaData" />
+      <End Role="productoData" EntitySet="productoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockBarrasData_familiaData" Association="sistemaAreaMasterModel.FK_stockBarrasData_familiaData">
+      <End Role="familiaData" EntitySet="familiaData" />
+      <End Role="stockBarrasData" EntitySet="stockBarrasData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockDepositoData_familiaData" Association="sistemaAreaMasterModel.FK_stockDepositoData_familiaData">
+      <End Role="familiaData" EntitySet="familiaData" />
+      <End Role="stockDepositoData" EntitySet="stockDepositoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockBarrasData_productoData" Association="sistemaAreaMasterModel.FK_stockBarrasData_productoData">
+      <End Role="productoData" EntitySet="productoData" />
+      <End Role="stockBarrasData" EntitySet="stockBarrasData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockDepositoData_productoData" Association="sistemaAreaMasterModel.FK_stockDepositoData_productoData">
+      <End Role="productoData" EntitySet="productoData" />
+      <End Role="stockDepositoData" EntitySet="stockDepositoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockBarrasData_stockDepositoData" Association="sistemaAreaMasterModel.FK_stockBarrasData_stockDepositoData">
+      <End Role="stockDepositoData" EntitySet="stockDepositoData" />
+      <End Role="stockBarrasData" EntitySet="stockBarrasData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_usuarioData_usuarioRolData1" Association="sistemaAreaMasterModel.FK_usuarioData_usuarioRolData1">
+      <End Role="usuarioRolData" EntitySet="usuarioRolData" />
+      <End Role="usuarioData" EntitySet="usuarioData" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="barraData">
+    <Key>
+      <PropertyRef Name="barraID" />
+    </Key>
+    <Property Name="barraID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="barraNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="barraSector" Type="Int32" />
+    <NavigationProperty Name="sectorData" Relationship="sistemaAreaMasterModel.FK_barraData_sectorData" FromRole="barraData" ToRole="sectorData" />
+    <NavigationProperty Name="stockBarrasData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_barraData" FromRole="barraData" ToRole="stockBarrasData" />
+  </EntityType>
+  <EntityType Name="depositoData">
+    <Key>
+      <PropertyRef Name="depID" />
+    </Key>
+    <Property Name="depID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="depNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="stockDepositoData" Relationship="sistemaAreaMasterModel.FK_stockDepositoData_depositoData" FromRole="depositoData" ToRole="stockDepositoData" />
+  </EntityType>
+  <EntityType Name="familiaData">
+    <Key>
+      <PropertyRef Name="famID" />
+    </Key>
+    <Property Name="famID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="famNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="productoData" Relationship="sistemaAreaMasterModel.FK_productoData_familiaData" FromRole="familiaData" ToRole="productoData" />
+    <NavigationProperty Name="stockBarrasData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_familiaData" FromRole="familiaData" ToRole="stockBarrasData" />
+    <NavigationProperty Name="stockDepositoData" Relationship="sistemaAreaMasterModel.FK_stockDepositoData_familiaData" FromRole="familiaData" ToRole="stockDepositoData" />
+  </EntityType>
+  <EntityType Name="PasswordResetTokens">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userID" Type="Int32" Nullable="false" />
+    <Property Name="Token" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ExpirationDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="productoData">
+    <Key>
+      <PropertyRef Name="prodID" />
+    </Key>
+    <Property Name="prodID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="prodNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="prodFamiliaID" Type="Int32" />
+    <NavigationProperty Name="familiaData" Relationship="sistemaAreaMasterModel.FK_productoData_familiaData" FromRole="productoData" ToRole="familiaData" />
+    <NavigationProperty Name="stockBarrasData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_productoData" FromRole="productoData" ToRole="stockBarrasData" />
+    <NavigationProperty Name="stockDepositoData" Relationship="sistemaAreaMasterModel.FK_stockDepositoData_productoData" FromRole="productoData" ToRole="stockDepositoData" />
+  </EntityType>
+  <EntityType Name="sectorData">
+    <Key>
+      <PropertyRef Name="secID" />
+    </Key>
+    <Property Name="secID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="secNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="barraData" Relationship="sistemaAreaMasterModel.FK_barraData_sectorData" FromRole="sectorData" ToRole="barraData" />
+  </EntityType>
+  <EntityType Name="stockBarrasData">
+    <Key>
+      <PropertyRef Name="sbID" />
+    </Key>
+    <Property Name="sbID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sbFamiliaID" Type="Int32" />
+    <Property Name="sbCantidad" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="sbBarraID" Type="Int32" />
+    <Property Name="sbFechaIngreso" Type="DateTime" Precision="3" />
+    <Property Name="sbProductoID" Type="Int32" />
+    <Property Name="sbPrecioVentaUnidad" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="sbCantDispID" Type="Decimal" Precision="12" Scale="2" />
+    <NavigationProperty Name="barraData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_barraData" FromRole="stockBarrasData" ToRole="barraData" />
+    <NavigationProperty Name="familiaData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_familiaData" FromRole="stockBarrasData" ToRole="familiaData" />
+    <NavigationProperty Name="productoData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_productoData" FromRole="stockBarrasData" ToRole="productoData" />
+    <NavigationProperty Name="stockDepositoData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_stockDepositoData" FromRole="stockBarrasData" ToRole="stockDepositoData" />
+  </EntityType>
+  <EntityType Name="stockDepositoData">
+    <Key>
+      <PropertyRef Name="stockID" />
+    </Key>
+    <Property Name="stockID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stockDepositoID" Type="Int32" />
+    <Property Name="stockFamiliaID" Type="Int32" />
+    <Property Name="stockProductoID" Type="Int32" />
+    <Property Name="stockCodProducto" Type="Int32" />
+    <Property Name="stockPrecioVentaUnidad" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="stockPrecioCostoUnidad" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="stockPrecioCostoTotal" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="stockCantidad" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="stockFechaIngreso" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="depositoData" Relationship="sistemaAreaMasterModel.FK_stockDepositoData_depositoData" FromRole="stockDepositoData" ToRole="depositoData" />
+    <NavigationProperty Name="familiaData" Relationship="sistemaAreaMasterModel.FK_stockDepositoData_familiaData" FromRole="stockDepositoData" ToRole="familiaData" />
+    <NavigationProperty Name="productoData" Relationship="sistemaAreaMasterModel.FK_stockDepositoData_productoData" FromRole="stockDepositoData" ToRole="productoData" />
+    <NavigationProperty Name="stockBarrasData" Relationship="sistemaAreaMasterModel.FK_stockBarrasData_stockDepositoData" FromRole="stockDepositoData" ToRole="stockBarrasData" />
+  </EntityType>
+  <EntityType Name="usuarioData">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="userApellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="userEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="userContrasena" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="userRolID" Type="Int32" />
+    <NavigationProperty Name="usuarioRolData" Relationship="sistemaAreaMasterModel.FK_usuarioData_usuarioRolData1" FromRole="usuarioData" ToRole="usuarioRolData" />
+  </EntityType>
+  <EntityType Name="usuarioRolData">
+    <Key>
+      <PropertyRef Name="rolID" />
+    </Key>
+    <Property Name="rolID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rolNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="rolPoder" Type="Int32" />
+    <NavigationProperty Name="usuarioData" Relationship="sistemaAreaMasterModel.FK_usuarioData_usuarioRolData1" FromRole="usuarioRolData" ToRole="usuarioData" />
+  </EntityType>
+  <Association Name="FK_barraData_sectorData">
+    <End Type="sistemaAreaMasterModel.sectorData" Role="sectorData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.barraData" Role="barraData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sectorData">
+        <PropertyRef Name="secID" />
+      </Principal>
+      <Dependent Role="barraData">
+        <PropertyRef Name="barraSector" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockBarrasData_barraData">
+    <End Type="sistemaAreaMasterModel.barraData" Role="barraData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.stockBarrasData" Role="stockBarrasData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="barraData">
+        <PropertyRef Name="barraID" />
+      </Principal>
+      <Dependent Role="stockBarrasData">
+        <PropertyRef Name="sbBarraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockDepositoData_depositoData">
+    <End Type="sistemaAreaMasterModel.depositoData" Role="depositoData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.stockDepositoData" Role="stockDepositoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="depositoData">
+        <PropertyRef Name="depID" />
+      </Principal>
+      <Dependent Role="stockDepositoData">
+        <PropertyRef Name="stockDepositoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_productoData_familiaData">
+    <End Type="sistemaAreaMasterModel.familiaData" Role="familiaData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.productoData" Role="productoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="familiaData">
+        <PropertyRef Name="famID" />
+      </Principal>
+      <Dependent Role="productoData">
+        <PropertyRef Name="prodFamiliaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockBarrasData_familiaData">
+    <End Type="sistemaAreaMasterModel.familiaData" Role="familiaData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.stockBarrasData" Role="stockBarrasData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="familiaData">
+        <PropertyRef Name="famID" />
+      </Principal>
+      <Dependent Role="stockBarrasData">
+        <PropertyRef Name="sbFamiliaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockDepositoData_familiaData">
+    <End Type="sistemaAreaMasterModel.familiaData" Role="familiaData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.stockDepositoData" Role="stockDepositoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="familiaData">
+        <PropertyRef Name="famID" />
+      </Principal>
+      <Dependent Role="stockDepositoData">
+        <PropertyRef Name="stockFamiliaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockBarrasData_productoData">
+    <End Type="sistemaAreaMasterModel.productoData" Role="productoData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.stockBarrasData" Role="stockBarrasData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productoData">
+        <PropertyRef Name="prodID" />
+      </Principal>
+      <Dependent Role="stockBarrasData">
+        <PropertyRef Name="sbProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockDepositoData_productoData">
+    <End Type="sistemaAreaMasterModel.productoData" Role="productoData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.stockDepositoData" Role="stockDepositoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productoData">
+        <PropertyRef Name="prodID" />
+      </Principal>
+      <Dependent Role="stockDepositoData">
+        <PropertyRef Name="stockProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockBarrasData_stockDepositoData">
+    <End Type="sistemaAreaMasterModel.stockDepositoData" Role="stockDepositoData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.stockBarrasData" Role="stockBarrasData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stockDepositoData">
+        <PropertyRef Name="stockID" />
+      </Principal>
+      <Dependent Role="stockBarrasData">
+        <PropertyRef Name="sbProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_usuarioData_usuarioRolData1">
+    <End Type="sistemaAreaMasterModel.usuarioRolData" Role="usuarioRolData" Multiplicity="0..1" />
+    <End Type="sistemaAreaMasterModel.usuarioData" Role="usuarioData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarioRolData">
+        <PropertyRef Name="rolID" />
+      </Principal>
+      <Dependent Role="usuarioData">
+        <PropertyRef Name="userRolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
